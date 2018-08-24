@@ -1,0 +1,50 @@
+.heroimage{
+	font-family: "Roboto";
+	background-image: url("../images/photos/hero.jpg");
+	height: 520px;
+	width: 100%;
+	background-size: auto 100%;
+	background-position: 60% center;
+}
+
+#herotext{
+	margin: 28px;
+	max-width: 100%;
+	text-align: center;
+	font-family: "Roboto";
+	font-size: 20px;
+}
+
+.hero.container{
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+#herotext p{
+	text-shadow: 0.3px 0.3px 5px black;
+	color: white;
+	margin: 28px 0;
+	line-height: 1.5em;
+	word-spacing: 1px;
+}
+
+#herotext h1{
+	text-shadow: 0.2px 0.2px 1px black;
+	color: #333;
+}
+
+.btn{
+	font-size: 14px;
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	width: 180px;
+	height: 42px;
+	border-radius: 20px;
+	border: none;
+	box-shadow: 0.5px 0.866px 2px rgba(0,0,0,0.75);
+	background-color: #0aade5;
+}
+
+

@@ -1,0 +1,22 @@
+@import url('header.css');
+@import url('hero.css');
+@import url('automation.css');
+@import url('section.css');
+@import url('product.css');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+.container{
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
