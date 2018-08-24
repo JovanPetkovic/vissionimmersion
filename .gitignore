@@ -66,5 +66,9 @@
 *.3dm
 *.max
 
+# MISC
+*.psd
+*.db
+
 
 # End of https://www.gitignore.io/api/images
