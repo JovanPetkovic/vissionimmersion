@@ -3,10 +3,16 @@
 @import url('automation.css');
 @import url('section.css');
 @import url('product.css');
+@import url('calltoaction.css');
+@import url('footer.css');
 
 * {
 	margin: 0;
 	padding: 0;
+}
+
+button:hover{
+	cursor: pointer;
 }
 
 html,body{
