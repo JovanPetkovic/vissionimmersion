@@ -1,0 +1,113 @@
+@media screen and (min-width: 640px) and (max-width: 959px){
+	
+	/*=================== CONTACT HEADER ===================*/
+
+	#icons img{
+		display: initial;
+	}
+
+	.contact-header{
+		justify-content: space-between;
+	}
+
+	.number{
+		justify-content: space-between;
+	}
+	.number h3{
+		padding-left: 20px;
+	}
+
+	#icons {
+		padding-right: 20px;
+	}
+
+	/*=================== NAVBAR ===================*/
+
+	nav{
+		top: 50px;
+		background: transparent;
+	}
+
+	nav img{
+		display: initial;
+	}
+
+	.section-text{
+		margin: auto;
+	}
+}
+
+@media screen and (min-width: 960px){
+	
+	/*=================== CONTACT HEADER ===================*/
+
+	#icons img{
+		display: initial;
+	}
+
+	.contact-header{
+		width: 100%;
+		position: fixed;
+		top: 0;
+		justify-content: space-between;
+	}
+
+	.number{
+		justify-content: space-between;
+	}
+
+	.number h3{
+		padding-left: 20px;
+	}
+
+	#icons {
+		padding-right: 20px;
+	}
+
+	/*=================== NAVBAR ===================*/
+
+	nav{
+		top: 50px;
+		background: rgba(0,0,0,0.6);
+		font-size: 14px;
+	}
+
+	nav img{
+		display: initial;
+		height: 50px;
+		width: auto;
+	}
+
+	.items {
+		width: 40%;
+		justify-content: space-between;
+	}
+
+	.items a{
+		color: white;
+		width: auto;
+	}
+
+	.items a:hover{
+		color: #016aad;
+	}
+
+	#underbar{
+		display: none;
+	}
+
+	#contact{
+		padding-right: 20px;
+	}
+
+	/*=================== HERO AREA ===================*/
+
+	.heroimage{
+		margin-top: 50px;
+		background-size: cover;
+	}
+
+	.section-text{
+		margin: auto;
+	}
+}
