@@ -7,29 +7,50 @@
 	}
 
 	.contact-header{
+		width: 100%;
+		position: fixed;
+		top: 0;
 		justify-content: space-between;
 	}
 
 	.number{
 		justify-content: space-between;
 	}
-	.number h3{
-		padding-left: 20px;
-	}
-
-	#icons {
-		padding-right: 20px;
-	}
 
 	/*=================== NAVBAR ===================*/
 
 	nav{
 		top: 50px;
-		background: transparent;
+		background: rgba(0,0,0,0.6);
+		font-size: 14px;
 	}
 
 	nav img{
 		display: initial;
+		height: 50px;
+		width: auto;
+	}
+
+	.items {
+		width: 384px;
+		justify-content: space-between;
+	}
+
+	.items a{
+		color: white;
+		width: auto;
+	}
+
+	.items a:hover{
+		color: #016aad;
+	}
+
+	#underbar{
+		display: none;
+	}
+
+	#contact{
+		padding-right: 20px;
 	}
 
 	.section-text{
@@ -56,14 +77,6 @@
 		justify-content: space-between;
 	}
 
-	.number h3{
-		padding-left: 20px;
-	}
-
-	#icons {
-		padding-right: 20px;
-	}
-
 	/*=================== NAVBAR ===================*/
 
 	nav{
@@ -79,7 +92,7 @@
 	}
 
 	.items {
-		width: 40%;
+		width: 384px;
 		justify-content: space-between;
 	}
 
@@ -106,6 +119,17 @@
 		margin-top: 50px;
 		background-size: cover;
 	}
+
+	.hero{
+		grid-template-areas: ". text-area";
+	}
+
+	#herotext{
+		text-align: initial;
+		justify-self: left;
+	}
+
+	/*=================== SECTION ===================*/
 
 	.section-text{
 		margin: auto;

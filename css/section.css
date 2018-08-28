@@ -1,6 +1,16 @@
-.section>img{
+.section>.img{
 	width: 100%;
 	height: auto;
+	height: 630px;
+	background-size: center;
+}
+
+#theatre{
+	background-image: url('../images/photos/theatre.jpg');
+}
+
+#multi-room{
+	background-image: url('../images/photos/audio.jpg');
 }
 
 .section{
