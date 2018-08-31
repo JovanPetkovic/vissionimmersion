@@ -17,6 +17,10 @@
 		justify-content: space-between;
 	}
 
+	.number h3{
+		margin-left: 5px;
+	}
+
 	/*=================== NAVBAR ===================*/
 
 	nav{
@@ -34,6 +38,7 @@
 	.items {
 		width: 384px;
 		justify-content: space-between;
+		margin-right: 5px;
 	}
 
 	.items a{
@@ -89,6 +94,10 @@
 		justify-content: space-between;
 	}
 
+	.number h3{
+		margin-left: 5px;
+	}
+
 	/*=================== NAVBAR ===================*/
 
 	nav{
@@ -106,6 +115,7 @@
 	.items {
 		width: 384px;
 		justify-content: space-between;
+		margin-right: 5px;
 	}
 
 	.items a{

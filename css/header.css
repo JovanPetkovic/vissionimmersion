@@ -20,6 +20,10 @@
 	margin-right: 7px;
 }
 
+.icons img:hover{
+	cursor: pointer;
+}
+
 .number{
 	height: 100%;
 	display: flex;
