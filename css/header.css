@@ -7,16 +7,17 @@
 	font-size: 20px;
 }
 
-#icons {
+.icons {
 	height: 36px;
 }
 
-#icons img{
+.icons img{
 	display: none;
 	width: 36px;
 	height: 36px;
 	border: none;
 	outline: none;
+	margin-right: 7px;
 }
 
 .number{

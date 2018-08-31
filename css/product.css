@@ -6,6 +6,9 @@
 
 .products .card p{
 	color: #333333;
+	margin: 0;
+	max-height: 200px;
+	overflow: hidden;
 }
 
 .products{
@@ -24,10 +27,6 @@
 	margin: 30px 0 0 0;
 	color: #333;
 	letter-spacing: 0.1px
-}
-
-.products .card p{
-	margin: 0;
 }
 
 .products .card img{

@@ -2,7 +2,7 @@
 	
 	/*=================== CONTACT HEADER ===================*/
 
-	#icons img{
+	.icons img{
 		display: initial;
 	}
 
@@ -56,13 +56,25 @@
 	.section-text{
 		margin: auto;
 	}
+
+	/*=================== FOOTER ===================*/
+
+	footer{
+		padding: 20px 0 0 0;
+	}
+
+	.foot>p{
+		display: initial;
+	}
+
+	
 }
 
 @media screen and (min-width: 960px){
 	
 	/*=================== CONTACT HEADER ===================*/
 
-	#icons img{
+	.icons img{
 		display: initial;
 	}
 
@@ -131,7 +143,50 @@
 
 	/*=================== SECTION ===================*/
 
-	.section-text{
-		margin: auto;
+	.section{
+		flex-direction: row;
+		height: 520px;
+		justify-content: space-around;
+	}
+
+	.section>.img{
+		width: 400px;
+		height: 300px;
+		border-radius: 20px;
+		background-size: cover;
+	}
+
+	.multi>div{
+		flex-direction: row-reverse;
+	}
+
+	/*=================== CALL TO ACTION ===================*/
+
+	.call{
+		flex-direction: row;
+	}
+
+	.call form{
+		max-width: 400px;
+		margin: 0 28px;
+	}
+
+	.call form input{
+		margin-bottom: 30px;
+	}
+
+	/*=================== FOOTER ===================*/
+
+	.left-footer{
+		display: flex;
+		width: 480px;
+	}
+
+	footer{
+		padding: 20px 0 0 0;
+	}
+
+	.foot>p{
+		display: initial;
 	}
 }

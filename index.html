@@ -14,7 +14,7 @@
 	<div class="contact-header"> <!-- HEADER WITH NUMBERS IN IT -->
 		<div class="number container">
 			<h3>Call 202-555-0158</h3>
-			<div id="icons">
+			<div class="icons">
 				<img src="images/icons/facebook.png">
 				<img src="images/icons/twitter.png">
 				<img src="images/icons/instagram.png">
@@ -89,23 +89,27 @@
 		</div>
 	</div>
 
-	<div class='section'> <!-- HOME THEATRE DESIGN -->
-		<div class="img" id="theatre"></div>
-		<div class='container section-text'>
-			<h1>Home <span style="color: #016aad;"> Theatre</span> Design</h1>
-			<p>Looking to create a cinematic experience in your home? Learn the basics, including how to set goals, find inspiration and design ideas, and choose the right audio and visual equipment, wiring and furnishings. Options to suit any budget, let us personalise your home theatre  experience. </p>
-			<button class='btn'>Learn More</button>
+	<section> <!-- HOME THEATRE DESIGN -->
+		<div class="container section">
+			<div class="img" id="theatre"></div>
+			<div class='container section-text'>
+				<h1>Home <span style="color: #016aad;"> Theatre</span> Design</h1>
+				<p>Looking to create a cinematic experience in your home? Learn the basics, including how to set goals, find inspiration and design ideas, and choose the right audio and visual equipment, wiring and furnishings. Options to suit any budget, let us personalise your home theatre  experience. </p>
+				<button class='btn'>Learn More</button>
+			</div>
 		</div>
-	</div>
+	</section>
 
-	<div class='section multi'> <!-- Multi Room Audio -->
-		<div class="img" id="multi-room"></div>
-		<div class='container section-text'>
-			<h1 style="color: #016aad;">Multi-Room Audio</h1>
-			<p>Whole house audio systems – also known as multi-room or multi-zone is the ability to listen to music in several rooms. Depending on the system you choose, you'll be able to play different music in different rooms at the same time, or the same music in all rooms, or just a couple simultaneously.</p>
-			<button class='btn'>Learn More</button>
+	<section class="multi">
+		<div class='section container'> <!-- Multi Room Audio -->
+			<div class="img" id="multi-room"></div>
+			<div class='container section-text'>
+				<h1 style="color: #016aad;">Multi-Room Audio</h1>
+				<p>Whole house audio systems – also known as multi-room or multi-zone is the ability to listen to music in several rooms. Depending on the system you choose, you'll be able to play different music in different rooms at the same time, or the same music in all rooms, or just a couple simultaneously.</p>
+				<button class='btn'>Learn More</button>
+			</div>
 		</div>
-	</div>
+	</section>	
 
 	<div class="products">  <!-- PRODUCTS -->
 		<h1>Products</h1>
@@ -134,36 +138,65 @@
 	<!-- CALL TO ACTION SECTION -->
 
 	<div class='calltoaction'>
-		<div class="call container">
-			<div class="cta-text">
-				<h1>Talk to a <span style="color:  #016aad;">specialist</span></h1>
-				<p>
-					Every big change begins with a small step. This is also the beggining of something great, share your vision with us to get the best advice from start home specialists.
-				</p>
+		<div class="cta-back">
+			<div class="call container">
+				<div class="cta-text">
+					<h1>Talk to a <span style="color:  #016aad;">specialist</span></h1>
+					<p>
+						Every big change begins with a small step. This is also the beggining of something great, share your vision with us to get the best advice from start home specialists.
+					</p>
+				</div>
+				<form>
+					<input type="text" name="name" placeholder="Name">
+					<input type="email" name="email" placeholder="Email">
+					<input type="text" name="subject" placeholder="Subject">
+					<textarea name="message" placeholder="Message">
+					</textarea>
+					<button class="btn">Submit</button>
+				</form>
 			</div>
-			<form>
-				<input type="text" name="name" placeholder="Name">
-				<input type="email" name="email" placeholder="Email">
-				<input type="text" name="subject" placeholder="Subject">
-				<textarea name="message" placeholder="Message">
-				</textarea>
-				<button class="btn">Submit</button>
-			</form>
 		</div>
 	</div>
 
 	<!-- FOOTER -->
 
 	<footer>
-		<div class='right-footer'>
-			<h3>Get news and updates</h3>
-			<form>
-				<input type="email" name="email" placeholder="Email">
-				<button id="cta"><img src="images/icons/right-arrow.png"></button>
-			</form>
-			<div class="icons">
-				
+		<div class="container foot">
+			<div class="left-footer">
+				<div class="footer-section">
+					<h3>What We Do</h3>
+					<h4>Home Automation</h4>
+					<h4>Home Theatre Design</h4>
+					<h4>Media Entertainment</h4>
+					<h4>Multi-Room Audio</h4>
+				</div>
+				<div class="footer-section">
+					<h3>Products</h3>
+					<h4>Silver Package</h4>
+					<h4>Gold Package</h4>
+					<h4>Platinum Package</h4>
+				</div>
+				<div class="footer-section">
+					<h3>About Us</h3>
+				</div>
 			</div>
+			<div class='right-footer'>
+				<div>
+					<h3>Get news and updates</h3>
+					<form>
+						<input type="email" name="email" placeholder="Email">
+						<button id="cta"><img src="images/icons/right-arrow.png"></button>
+					</form>
+				</div>
+				<div class="icons">
+					<img src="images/icons/facebook.png">
+					<img src="images/icons/twitter.png">
+					<img src="images/icons/instagram.png">
+					<img src="images/icons/linkedin.png">
+					<img src="images/icons/google.png">
+				</div>
+			</div>
+		<p>© 2018 Vission Immersion</p>
 		</div>
 	</footer>
 </body>

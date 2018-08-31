@@ -3,6 +3,20 @@
 	height: auto;
 	height: 630px;
 	background-size: center;
+	background-repeat: no-repeat;
+	margin: 0 20px;
+}
+
+.section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+section{
+	background-color: white;
+	width: 100%;
+	margin: 0;
 }
 
 #theatre{
@@ -13,7 +27,7 @@
 	background-image: url('../images/photos/audio.jpg');
 }
 
-.section{
+section{
 	color: #333;
 	text-align: center;
 	font-family: "Open Sans";
@@ -27,7 +41,7 @@
 
 .section-text>p{
 	font-size: 16px;
-	max-width: 480px;
+	max-width: 400px;
 	margin: 0 auto;
 }
 
